@@ -1,0 +1,17 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "ManhNT",
+  "license": "ISC",
+  "description": "Coffee Style Project",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.4.16"
+  }
+}
