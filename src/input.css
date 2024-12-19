@@ -8,7 +8,7 @@
 }
 .mnt-top-menu-item {
     @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0
-     after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
+     after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
 }
 .mnt-top-menu-item-active {
     @apply text-gray-800
@@ -18,4 +18,13 @@
 }
 .mnt-badge-circle {
     @apply text-xs text-center rounded-full px-1.5;
+}
+.mnt-subheadline{
+    @apply flex justify-center items-center mb-24 ;
+}
+.mnt-subheadline-deco-line{
+    @apply w-8 h-px bg-gray-200 ;
+}
+.mnt-subheadline-label{
+    @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[13px] ;
 }
